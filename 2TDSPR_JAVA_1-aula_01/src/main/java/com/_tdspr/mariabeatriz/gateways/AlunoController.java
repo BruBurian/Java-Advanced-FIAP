@@ -23,7 +23,7 @@ public class AlunoController {
         Aluno alunoAtualizado = new Aluno();
         alunoAtualizado.setPrimeiroNome("Bruno");
         alunoAtualizado.setRegistro(aluno.getRegistro());
-        return ResponseEntity.ok(alunoAtualizado);
+        return ResponseEntity.ok  (alunoAtualizado);
     }
 
 
